@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 252.202 s <<< FAILURE! - in cucumberOptions.TestRunner
+Search for items and then move to checkout page #1(Search and Place order for vegetables)  Time elapsed: 107.8 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "User searched for Brinjal vegetables" is undefined. You can implement it using the snippet(s) below:
+
+@When("User searched for Brinjal vegetables")
+public void user_searched_for_brinjal_vegetables() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("Verify selected Brinjal items are displayed in checkout page")
+public void verify_selected_brinjal_items_are_displayed_in_checkout_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search for items and then move to checkout page #2(Search and Place order for vegetables)  Time elapsed: 35.515 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "User searched for Beetroot vegetables" is undefined. You can implement it using the snippet(s) below:
+
+@When("User searched for Beetroot vegetables")
+public void user_searched_for_beetroot_vegetables() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Then("Verify selected Beetroot items are displayed in checkout page")
+public void verify_selected_beetroot_items_are_displayed_in_checkout_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
